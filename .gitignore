@@ -1,6 +1,7 @@
 /target
 /info
 *.o
+save
 connect_DBeaver.md
 add_commit_push.sh
 images_del.py

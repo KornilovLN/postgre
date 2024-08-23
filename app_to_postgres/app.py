@@ -12,16 +12,16 @@ import base64
 app = Flask(__name__)
 
 # SSH и PostgreSQL данные
-ssh_host = '192.168.88.104'
+ssh_host = '192.168.08.108'
 ssh_port = 22
-ssh_user = 'starmark'
-ssh_password = '!18leon28'
+ssh_user = 'owner'
+ssh_password = '!27pass72'
 
 db_host = 'localhost'
 db_port = 5432
 db_name = 'pg_db_star'
-db_user = 'starmark'
-db_password = '18star28'
+db_user = 'owner'
+db_password = '27pass72'
 
 def clear_table():
     with SSHTunnelForwarder(
