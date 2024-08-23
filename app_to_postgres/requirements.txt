@@ -1,0 +1,6 @@
+flask
+paramiko
+sshtunnel
+psycopg2-binary
+matplotlib
+pandas

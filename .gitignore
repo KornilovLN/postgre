@@ -1,0 +1,6 @@
+/target
+/info
+*.o
+add_commit_push.sh
+images_del.py
+container_del.py
